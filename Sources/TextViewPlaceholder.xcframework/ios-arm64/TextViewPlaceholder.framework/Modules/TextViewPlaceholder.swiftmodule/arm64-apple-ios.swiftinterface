@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TextViewPlaceholder
+import Swift
+@_exported import TextViewPlaceholder
+import UIKit
+import _Concurrency
+extension UIKit.UITextView {
+  @_Concurrency.MainActor(unsafe) public var placeholder: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var placeholderColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var placeholderFont: UIKit.UIFont? {
+    get
+    set
+  }
+}

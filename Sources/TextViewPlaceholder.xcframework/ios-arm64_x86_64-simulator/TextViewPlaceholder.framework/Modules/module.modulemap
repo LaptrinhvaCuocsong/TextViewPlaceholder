@@ -1,0 +1,11 @@
+framework module TextViewPlaceholder {
+  umbrella header "TextViewPlaceholder.h"
+
+  export *
+  module * { export * }
+}
+
+module TextViewPlaceholder.Swift {
+    header "TextViewPlaceholder-Swift.h"
+    requires objc
+}

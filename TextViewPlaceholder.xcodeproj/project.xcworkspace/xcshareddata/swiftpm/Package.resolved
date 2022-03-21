@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TextViewPlaceholderSPM",
+        "repositoryURL": "https://github.com/LaptrinhvaCuocsong/TextViewPlaceholder",
+        "state": {
+          "branch": "main",
+          "revision": "fed6b9b9c7afc01f879ed915ad3edf44ef2e233b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
